@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>信鸽-用户登录</title>
+  <link rel="shortcut icon" href="../static/img/favicon.ico">
+  <link href="../static/css/flat-ui.css" rel="stylesheet">
+  <link href="../static/css/user_login.css" rel="stylesheet">
+</head>
+<body>
+  <div class="center">
+    <h3>信鸽</h3>
+    <div class="img">
+      <img src="../static/img/png/Chat.png">
+      <p>欢迎你，朋友</p>
+    </div>
+    <div class="form">
+      <form action="/user/login" method="post">
+      <input type="text" class="form-control login-field" name="username"
+             placeholder="请输入用户名" id="loginName">
+      <label class="login-field-icon fui-user" for="loginName"></label>
+      <br>
+      <input type="password" class="form-control login-field" name="password"
+             placeholder="请输入密码" id="loginPass">
+      <label class="login-field-icon fui-lock" for="loginPass"></label>
+      <br>
+      <button type="submit" class="btn btn-primary btn-lg">登录</button>
+      <a href="/user/switch" class="login-link">未有账号？请注册</a>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

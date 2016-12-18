@@ -1,0 +1,178 @@
+/*样式重置*/
+body,h3,h4,h6,nav,p{
+  margin:0;
+}
+input{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+/*样式准备*/
+.center{
+  width:920px;
+  margin:0 auto;
+}
+.clearfix:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.body{
+  background:#ECF0F1;
+}
+/*nav*/
+#nav{
+  background:#34495e;
+  height:60px;
+}
+#nav .navBox{
+  width:1000px;
+  margin:0 auto;
+}
+#nav .navBox h4{
+  float:left;
+  font:bold 25px/60px "宋体";
+  color:#1ABC9C;
+}
+#nav .navBox ul{
+  float:right;
+}
+#nav .navBox ul li{
+  float:left;
+  padding:0 30px;
+  font:bold 20px/60px "宋体";
+}
+#nav .navBox ul li:hover{
+  background:#2C3E50;
+}
+#nav .navBox ul li a{
+  color:#1ABC9C;
+}
+/*weibo*/
+#weibo .content{
+  float:left;
+}
+#weibo .weiboInput h5{
+  font:20px/30px "宋体";
+  color:#1ABC9C;
+}
+#weibo .weiboInput textarea{
+  width:574px;
+  height:100px;
+}
+#weibo .weiboInput input{
+  width:600px;
+  cursor: pointer;
+}
+
+/*------------------------------------*/
+#weibo .container .weiboCell{
+  margin-top:30px;
+  padding:10px;
+}
+#weibo .container .weiboCell img{
+  width:80px;
+  border-radius: 50%;
+  float:left;
+}
+#weibo .container .weiboCell .imgRight{
+  float:left;
+  margin-left:30px;
+}
+#weibo .container .weiboCell .contentBox{
+  width:450px;
+  padding:10px;
+  background:#1ABC9C;
+  border-radius: 4px;
+}
+#weibo .container .weiboCell .contentBox h6{
+  font-size:18px;
+  margin-bottom:20px;
+}
+#weibo .container .weiboCell .contentBox .weiboContent{
+  font-size:18px;
+  margin-bottom: 30px;
+}
+#weibo .container .weiboCell .contentBox .time{
+  font-size:14px;
+  display:inline-block;
+  float:left;
+}
+#weibo .container .weiboCell .contentBox .delete-weibo, .showComment{
+  font-size:16px;
+  cursor:pointer;
+  float:right;
+  display:inline-block;
+  padding:10px;
+  color:#34495e;
+}
+#weibo .container .weiboCell .contentBox .delete-weibo:hover{
+  background:#16A085;
+}
+#weibo .container .weiboCell .contentBox .showComment:hover{
+  background:#16A085;
+}
+#weibo .container .commentCell{
+  display:none;
+  margin-top:10px;
+  background:#34495E;
+  padding:10px;
+  border-radius: 4px;
+  color:#fff;
+}
+#weibo .container .commentCell .commentInput{
+  padding:0 10px;
+  width:350px;
+  height:30px;
+}
+#weibo .container .commentCell .commentSubmit{
+  display:inline-block;
+  margin-left:10px;
+  cursor: pointer;
+}
+#weibo .container .commentCell .commentContent{
+  font:14px/60px "宋体";
+  margin-top:5px;
+  border-bottom: 1px solid #2C3E50; 
+}
+#weibo .container .commentCell .commentContent img{
+  float:left;
+  width:40px;
+  border-radius: 50%;
+}
+#weibo .container .commentCell .commentContent .comment-content{
+  font-size:16px;
+  position:relative;
+  left:20px;
+}
+#weibo .container .commentCell .commentContent .comment-time{
+  font-size:12px;
+  float:right;
+}
+
+/*-------------------------------------*/
+/*sidebar*/
+#weibo .sidebar{
+  padding-top:10px;
+  float:right;
+}
+#weibo .sidebar img{
+  border-radius: 50%;
+  width:200px;
+  height:150px;
+}
+/*footer*/
+#footer{
+  text-align: center;
+  font:20px/60px "宋体";
+  margin-top: 50px;
+  background:#34495E;
+  color:#fff;
+}

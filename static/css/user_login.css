@@ -1,0 +1,79 @@
+/*样式重置*/
+body,h3{
+  margin:0;
+}
+input{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+button{
+  padding:0;
+}
+
+/*主体*/
+body{
+    background:#1abc9c;
+}
+.center{
+  width:1180px;
+  margin:0 auto;
+  position: relative;
+}
+.center h3{
+  width:350px;
+  position:absolute;
+  top:70px;
+  left:530px;
+}
+.center .img{
+  position:absolute;
+  top:20px;
+  left:132px;
+}
+.center .img img{
+  width:100px;
+}
+.center .img p{
+  padding-left:10px;
+  width:100px;
+  font: bold 15px/25px "宋体";
+  text-align:center;
+  color:#fff
+}
+.center .form{
+  width:350px;
+  border-radius: 4px;
+  position:absolute;
+  top:150px;
+  left:375px;
+  padding:24px;
+  padding-left:45px;
+  background:#edeff1;
+}
+.center .form input.login-field{
+  width:310px;
+  height:42px;
+  margin:10px 0;
+  padding:8px;
+}
+.center .form .login-field-icon{
+  position:relative;
+  right:35px;
+}
+.center .form label.gender{
+  display: inline-block;
+  margin:0 20px;
+  font:18px/20px "宋体";
+}
+.center .form button{
+  margin-top:10px;
+  width:328px;
+  cursor: pointer;
+}
+.center .form a{
+  position:relative;
+  right:20px;
+}
